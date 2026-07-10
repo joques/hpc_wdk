@@ -329,3 +329,52 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+# --- HPC & Job Outputs ---
+*.o
+*.out
+*.mod
+*.a
+*.so
+core.*
+*.err
+*.log
+*.job
+*.slurm
+*.pbs
+*.lsf
+
+# --- Data & Results ---
+*.dat
+*.csv
+*.h5
+*.nc
+*.bin
+*.npy
+*.npz
+output/
+results/
+scratch/
+
+# --- Build & Compilers ---
+build/
+dist/
+Makefile.in
+config.log
+config.status
+
+# --- Python / Data Science ---
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+env/
+
+# --- IDE & OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
