@@ -340,7 +340,7 @@ core.*
 *.err
 *.log
 *.job
-*.slurm
+# *.slurm
 *.pbs
 *.lsf
 
