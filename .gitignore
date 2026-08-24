@@ -378,3 +378,5 @@ Thumbs.db
 .vscode/
 .idea/
 
+# --- additional files ---
+ trainings/level1/examples/
